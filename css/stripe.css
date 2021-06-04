@@ -16,18 +16,19 @@ html,body {
     height:100%;
     transform: skewY(-12deg);
     top: -380px;
-    /* Matching gradient 
-    --gradient-color-1: #766dff; 
-    --gradient-color-2: #88f3ff; 
+
+    --gradient-color-1: #0A2540; 
+    --gradient-color-2: #01CAF4; 
     --gradient-color-3: #766dff;  
     --gradient-color-4: #00FFFF;
-    */
-    /* stripe style gradient */
+    
+
+    /* stripe style gradient 
     --gradient-color-1: #ef008f; 
     --gradient-color-2: #88f3ff; 
     --gradient-color-3: #766dff;  
     --gradient-color-4: #ffba27; 
-    
+    */
   }
 
   /* non gradient related css */
