@@ -4,15 +4,23 @@ html,body {
     width:100%;
      height:100%;
   }
-  #gradient-canvas {
+  .gradient-canvas {
     position: absolute;
     z-index: -1;
     width:100%;
     height:100%;
+    /* Matching gradient 
+    --gradient-color-1: #766dff; 
+    --gradient-color-2: #88f3ff; 
+    --gradient-color-3: #766dff;  
+    --gradient-color-4: #00FFFF;
+    */
+    /* stripe style gradient */
     --gradient-color-1: #ef008f; 
     --gradient-color-2: #88f3ff; 
     --gradient-color-3: #766dff;  
-    --gradient-color-4: #ffba27;
+    --gradient-color-4: #ffba27; 
+    
   }
 
   /* non gradient related css */
@@ -26,3 +34,151 @@ html,body {
       border-radius: 12px;
   }
 
+  /* timeline css */
+
+  *{
+      box-sizing: border-box;
+  }
+
+  .timeline-section { 
+    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  }
+
+  .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+/* timeline ruler */
+  .timeline::after{
+      content: '';
+      height: 100%;
+      position: absolute;
+      width: 6px;
+      background-color: white;
+      top:0;
+      bottom:0;
+      left:50%;
+      margin-left:-3px;
+  }
+
+  .tl-entry{
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+  }
+/* timeline circles */
+  .tl-entry::after{
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -10px;
+      background-color: white;
+      border: 4px solid #766dff;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+  }
+
+  .left{
+      left:0;
+  }
+
+  .right{
+      left: 50%;
+  }
+
+  .left::before{
+      content: '';
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index:1;
+      right: 30px;
+      border: medium solid white;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent white;
+  }
+
+  .right::before{
+      content: '';
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      left: 30px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+  }
+
+  .right::after{
+      left: -16px;
+  }
+
+  .content{
+      padding: 10px 20px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+  }
+  /* Timeline typography */
+  #my-journey{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 36px;
+    margin-bottom: 18px;
+    text-transform: uppercase; }
+  .timeline-tenure{
+      margin: 0;
+  }
+  .timeline-title{
+      margin: 0;
+      height: auto;
+      color: #222222;
+   }
+   .time
+  .bullet-element{
+      line-height: normal;
+  }
+  
+  /* responsive timeline on sizes<600px wide */
+  @media screen and (max-width: 900px){
+      /* places all of timeline to left */
+    .timeline::after{
+          left:31px;
+      }
+    /* Full-width containers */
+    .tl-entry {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+  
+    .tl-entry::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+        /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+        left: 15px;
+    }
+
+        /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+  }
+
+  /* End of experience section */

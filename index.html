@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>MeetMe Personal</title>
+        <title>Sam Morgan Dev</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -53,7 +53,7 @@
         
         <!--================Home Banner Area =================-->
         <section class="home_banner_area" id="home">
-			<canvas id="gradient-canvas" data-transition-in>			</canvas>
+			<canvas class="gradient-canvas" data-transition-in>			</canvas>
            	<div class="container box_1620">
            		<div class="banner_inner d-flex align-items-center">
 					<div class="banner_content">
@@ -74,8 +74,8 @@
 										<li><a href="#"><i class="lnr lnr-home"></i> Manchester, UK</a></li>
 									</ul>
 									<ul class="list personal_social">
-										<li><a href="https://github.com/smorga41"><i class="fa fa-github fa-lg"></i></a></li>
-										<li><a href="https://www.linkedin.com/in/samuel-morgan-dev/"><i class="fa fa-linkedin fa-lg"></i></a></li>
+										<li><a href="https://github.com/smorga41" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/samuel-morgan-dev/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
 									</ul>
 								</div>
 							</div>
@@ -93,8 +93,9 @@
         			<div class="col-lg-6">
 						<div class="welcome_text">
         					<h4>About Myself</h4>
-        					<p>My interest in computer science has grown from learning python to automate devices around to house right up to higher education. I am determined to combine my fascination for Computer Science, problem solving, drive to improve, and enjoyment of collaborating with others to get the very most out of my university studies and kisckstart my career.</p>
-        					<div class="row">
+        					<p>My interest in computer science has grown from learning python to automate devices around my house right up to higher education. I am determined to combine my fascination for Computer Science, problem solving, drive to improve, and enjoyment of collaborating with others to get the very most out of my university studies and kisckstart my career.</p>
+        					<h5>What im currently working with</h5>
+								<div class="row">
         						<div class="col-md-4">
         							<div class="wel_item">
         								<i class="lnr lnr-database"></i>
@@ -169,109 +170,60 @@
         	</div>
         </section>
         <!--================End Welcome Area =================-->
-        
-        <!--================My Tabs Area =================-->
-        <section class="mytabs_area p_120" id="Experience">
-        	<div class="container">
-        		<div class="tabs_inner">
-					<ul class="nav nav-tabs" id="myTab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
-						</li>
-					</ul>
-					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-							<!--My Experience Section-->
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-								<li>
-								<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Sept 2021 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>University of Manchester</h4>
-											<p>BSc<br />Computer Science with Industrial Experience</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Sept 2019 to Jun 2021</p>
-										</div>
-										<div class="media-body">
-											<h4>Bristol Grammar School</h4>
-											<p>A-levels<br />
-											Maths, Computer Science, Physics <br />
-											A*A*A*</p>
-										</div>
-									</div>
-								</li>
-								<li>
-								<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Sept 2017 to Jul 2019</p>
-										</div>
-										<div class="media-body">
-											<h4>Bristol Grammar School</h4>
-											<p>GCSE<br />10 grades 9/A* <br />
-											Inc Maths, F.Maths, and English Literature</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
+		
+		<!--================Experience Timeline==============-->
+		<section class="timeline-section">
+			<h4 id="my-journey">My Journey</h4>
+			<div class="education timeline">
+				<div class="tl-entry left">
+					<div class="content">
+						<h6 class="timeline-tenure">2021-2025</h6>
+						<h3 class="timeline-title">University of Manchester</h3>
+						<h4 class="timeline-subtitle">BSc, Computer Science with Industrial Experience</h4>
+						<ul class="timeline-bullet">						
+						</ul>
 					</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End My Tabs Area =================-->
+				</div>
+				<div class="tl-entry right">
+					<div class="content">
+						<h6 class="timeline-tenure">2019-2021</h6>
+						<h3 class="timeline-title">Bristol Grammar School</h3>
+						<h4 class="timeline-subtitle">A-Levels (A*A*A*)</h4>
+						<ul class="timeline-bullet">
+							<li class="bullet-element">Maths, Computer Science, Physics</li>
+							<li class="bullet-element">Awarded an academic scholarship for Computer Science</li>
+							<li class="bullet-element">5th in national ISC climbing finals</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="tl-entry left">
+					<div class="content">
+						<h6 class="timeline-tenure">Jun 2020</h6>
+						<h3 class="timeline-title">University of Sheffield</h3>
+						<h4 class="timeline-subtitle">EDT Computer Science Headstart Course</h4>
+						<ul class="timeline-bullet">
+							<li class="bullet-element">Taught the fundamentals of machine learning and natual language prosessing over a series of lectures</li>
+							<li class="bullet-element">Applied knowledge taught to create a machine learning classifier using logistic regression to identify sentiment of reviews with 91% accuracy</li>
+							<li class="bullet-element"><a href="https://github.com/smorga41/Logistic-Regression-Sentiment-Analysis/blob/master/LogisticRegression_SentimentAnalysis.ipynb" target="_blank">Click me to see project</a> </li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="tl-entry right">
+					<div class="content">
+						<h6 class="timeline-tenure">2017-2019</h6>
+						<h3 class="timeline-title">Bristol Grammar School</h3>
+						<h4 class="timeline-subtitle">GCSE's</h4>
+						<ul class="timeline-bullet">
+							<li class="bullet-element">10 grade A*/9 (including Maths, F.Maths, English language)</li>				
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--================End Experience Timeline==============-->
+       
         
         <!--================Feature Area =================-->
         <section class="feature_area p_120">

@@ -519,4 +519,4 @@ function normalizeColor(hexCode) {
   * Gradient.updateFrequency(freq)
   */
   var gradient = new Gradient();
-      gradient.initGradient("#gradient-canvas");
+      gradient.initGradient(".gradient-canvas");
