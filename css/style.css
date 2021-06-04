@@ -223,7 +223,7 @@ button:focus {
       font-size: 12px;
       line-height: 60px;
       display: inline-block;
-      color: #222222;
+      color: #0A2540;
       margin-left: 80px; }
       .header_area .navbar .search i {
         font-weight: 600; }
@@ -233,7 +233,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #000;
+    background: #0A2540;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -301,14 +301,18 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
+  /*
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  */
+  background-color: white;
   margin-bottom: 200px; }
   .home_banner_area .box_1620 {
     min-height: 700px;
     border-radius: 12px;
     position: relative;
+    top: 120px;
     bottom: -200px;
     background: #fff;
     padding: 30px;

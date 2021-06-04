@@ -1,3 +1,8 @@
+/* color pallet
+dark background: #0A2540
+cyan blue accent: #01CAF4
+white: 
+*/
 html,body {
     margin:0;
     padding:0;
@@ -9,6 +14,8 @@ html,body {
     z-index: -1;
     width:100%;
     height:100%;
+    transform: skewY(-12deg);
+    top: -380px;
     /* Matching gradient 
     --gradient-color-1: #766dff; 
     --gradient-color-2: #88f3ff; 
@@ -34,6 +41,17 @@ html,body {
       border-radius: 12px;
   }
 
+  /*about me css */
+  .welcome_area{
+      padding: 0px 0px 120px;
+
+  }
+  @media screen and (max-width: 1200px){
+      .welcome_area{
+          padding-top: 50px;
+      }
+  }
+
   /* timeline css */
 
   *{
@@ -41,15 +59,17 @@ html,body {
   }
 
   .timeline-section { 
-    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+      background-color: #0A2540;
+      transform: skewY(-12deg);
+
   }
 
   .timeline {
       position: relative;
       max-width: 1200px;
+      padding: 100px 0px 150px;
       margin: 0 auto;
+      transform: skewY(12deg);
   }
 /* timeline ruler */
   .timeline::after{
@@ -61,7 +81,7 @@ html,body {
       top:0;
       bottom:0;
       left:50%;
-      margin-left:-3px;
+      margin-left:-5px;
   }
 
   .tl-entry{
@@ -78,7 +98,7 @@ html,body {
       height: 25px;
       right: -10px;
       background-color: white;
-      border: 4px solid #766dff;
+      border: 4px solid #01CAF4;
       top: 15px;
       border-radius: 50%;
       z-index: 1;
@@ -148,6 +168,19 @@ html,body {
    .time
   .bullet-element{
       line-height: normal;
+  }
+
+  .timeline-btn{
+      background-color: #01CAF4;
+      border-color: transparent;
+      border-radius: 6px;
+      color:#0a2540;
+  }
+  .timeline-btn:hover{
+      background-color: #0A2540;
+      color: white;
+      transition: ease-in 0.15s;
+      transition: ease-out 0.15s
   }
   
   /* responsive timeline on sizes<600px wide */
