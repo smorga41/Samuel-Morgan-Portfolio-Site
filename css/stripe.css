@@ -199,13 +199,13 @@ html,body {
       line-height: normal;
   }
 
-  .timeline-btn{
+  .btn{
       background-color: #01CAF4;
       border-color: transparent;
       border-radius: 6px;
       color:#0a2540;
   }
-  .timeline-btn:hover{
+  .btn:hover{
       background-color: #0A2540;
       color: white;
       transition: ease-in 0.15s;
@@ -294,17 +294,9 @@ html,body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .projects-btn{
-      visibility: hidden;
-  }
-  @media screen and (max-width:770px){
-      .projects-btn{
-        visibility: visible;
-  }
- 
-  }
-  
 
-
-
+  .tech-used{
+      margin-top: 20px;
+      text-align: center;
+  }
   /* end of projects section */
