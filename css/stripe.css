@@ -33,11 +33,7 @@ html,body {
 
   /* non gradient related css */
 
-  .logo_h{
-      width: 96px;
-      height: 18px;
-  }
-
+  
   .rounded-corners{
       border-radius: 12px;
   }
