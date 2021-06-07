@@ -41,7 +41,7 @@ html,body {
   .rounded-corners{
       border-radius: 12px;
   }
-  .fa{
+  .home-socials{
       color: #0A2540;
   }
 
@@ -79,6 +79,9 @@ html,body {
       .welcome_area{
           padding-top: 50px;
       }
+  }
+  .wel_item button{
+    margin-top: 5px;
   }
 
   /* timeline css */
@@ -193,9 +196,13 @@ html,body {
       margin: 0;
       height: auto;
       color: #222222;
+      padding-right: 60px;
    }
-   .time
-  .bullet-element{
+   .timeline-subtitle{
+     padding-right: 60px;
+   }
+
+   .time .bullet-element{
       line-height: normal;
   }
 
@@ -217,6 +224,7 @@ html,body {
       right: 10px;
       max-height: 50px;
       max-width: 150px;
+      margin: 5px
   }
   
   /* responsive timeline on sizes<600px wide */
@@ -258,12 +266,14 @@ html,body {
   }
   
   .project-img{
-      width:100%;
-      border-radius: 6px;
-      padding-bottom: 20px;
+
+    width: 100%;
+    border-radius: 6px;
+    padding-bottom: 20px;
   }
   .project-img-div{
-      position: relative;
+    position: relative;
+
   }
   .img-overlay{
       position: absolute;
@@ -275,7 +285,7 @@ html,body {
       width: 100%;
       opacity: 0;
       transition: 0.5s ease;
-      background-color: #0A2540;
+      background-color: #0a2540;
       border-radius: 6px;
   }
 
@@ -300,3 +310,108 @@ html,body {
       text-align: center;
   }
   /* end of projects section */
+
+  .site-footer
+{
+  background-color:#0A2540; 
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color: #d3d3d3;
+}
+.site-footer hr
+{
+  border-top-color: white;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color: white;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color: #d3d3d3;
+}
+.site-footer a:hover
+{
+  color:#01CAF4;
+  text-decoration:none;
+}
+.site-footer.lnr{
+  margin-right: 10px;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block;
+}
+.footer-links a
+{
+  color:#d3d3d3
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#01CAF4;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+
+.footer-contact{
+    width: 100%;
+}
+.footer-contact{
+    font-family: "Roboto", sans-serif;
+}
+  /* Footer Section */
