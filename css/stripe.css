@@ -261,6 +261,9 @@ html,body {
       margin-top: 150px;
   }
   
+  .feature_item{
+    height:95%;
+  }
   .project-img{
 
     width: 100%;
@@ -303,6 +306,7 @@ html,body {
 
   .tech-used{
       margin-top: 20px;
+      margin-bottom: 20px;
       text-align: center;
   }
   /* end of projects section */

@@ -2651,7 +2651,7 @@ h6 {
   .feature_area.white_feature {
     background: #fff; }
     .feature_area.white_feature .feature_item {
-      background: #f9f9ff; }
+       background: #f9f9ff;}
       .feature_area.white_feature .feature_item:hover {
         background: #fff; }
 
