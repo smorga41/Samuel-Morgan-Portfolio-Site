@@ -40,6 +40,10 @@ html,body {
   .home-socials{
       color: #0A2540;
   }
+  /* navbar css */
+  .personal-logo{
+    height: 25px;
+  }
 
   /*about me css */
   .welcome_area{
@@ -302,11 +306,14 @@ html,body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+
   }
 
   .tech-used{
+    position: relative;
+    
+    bottom: 0;
       margin-top: 20px;
-      margin-bottom: 20px;
       text-align: center;
   }
   /* end of projects section */
