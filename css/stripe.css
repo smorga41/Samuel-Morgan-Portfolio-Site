@@ -57,10 +57,11 @@ html,body {
       
   }
 
-  .grid-container {
+  .grid-container{
   display: inline-grid;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
+  width: 90%;
 }
 
 .grid-item {
