@@ -223,7 +223,7 @@ button:focus {
       font-size: 12px;
       line-height: 60px;
       display: inline-block;
-      color: #0A2540;
+      color: transparent;
       margin-left: 80px; }
       .header_area .navbar .search i {
         font-weight: 600; }
@@ -233,7 +233,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #0A2540;
+    background: transparent;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;

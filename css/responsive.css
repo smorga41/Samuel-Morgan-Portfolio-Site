@@ -94,8 +94,12 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
+		background: transparent;
+	}
+	.header_area.navbar_fixed .navbar {
 		background: #0A2540;
 	}
+
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
 	}

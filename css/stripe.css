@@ -32,8 +32,12 @@ html,body {
   }
 
   /* non gradient related css */
-
-  
+  .header_area .navbar {
+		background: transparent;
+	}
+	.header_area.navbar_fixed .navbar {
+		background: #0A2540;
+	}
   .rounded-corners{
       border-radius: 12px;
   }
