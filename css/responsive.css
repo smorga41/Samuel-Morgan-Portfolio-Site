@@ -99,6 +99,7 @@
 	}
 	.header_area.navbar_fixed .navbar {
 		background: #0A2540;
+		height:70px;
 	}
 
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
