@@ -306,9 +306,8 @@
     	from(rgba(255,255,255,0)), to(rgba(255,255,255,1)));
 		padding-top: 0;
 	}
-	#home-box img h3 h4 h6 a li{
-		opacity: 1;
-
+	.gradient-canvas{
+		top: -600px;
 	}
 	.top_menu {
 		display: none;
