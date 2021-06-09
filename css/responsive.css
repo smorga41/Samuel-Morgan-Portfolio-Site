@@ -95,6 +95,7 @@
     }
 	.header_area .navbar {
 		background: transparent;
+		height:120px;
 	}
 	.header_area.navbar_fixed .navbar {
 		background: #0A2540;
