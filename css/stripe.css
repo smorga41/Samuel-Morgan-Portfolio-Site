@@ -332,12 +332,10 @@ html,body {
 .site-footer hr
 {
   border-top-color: white;
-  opacity:0.5
+  opacity:0.5;
+  margin : 1rem 0;
 }
-.site-footer hr.small
-{
-  margin:20px 0
-}
+
 .site-footer h6
 {
   color: white;
@@ -423,5 +421,8 @@ html,body {
 }
 .footer-contact{
     font-family: "Roboto", sans-serif;
+}
+#footer-logo{
+  margin-bottom: 1rem;
 }
   
