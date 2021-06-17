@@ -93,13 +93,17 @@
         margin-top: 27px;
         margin-bottom: 23px;
     }
-	.header_area .navbar {
-		background: transparent;
+	.header_area .main_menu .navbar{
+		height: 120px;
+	}
+	.header_area.navbar-expand-lg {
+		background: transparent; 
 		height:120px;
 	}
+	
 	.header_area.navbar_fixed .navbar {
 		background: #0A2540;
-		height:70px;
+		height:100%
 	}
 
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
