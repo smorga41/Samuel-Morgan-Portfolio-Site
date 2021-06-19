@@ -1,8 +1,12 @@
-/* color pallet
-dark background: #0A2540
-cyan blue accent: #01CAF4
-white: 
-*/
+
+:root{
+  --dark-background: #0a2540;
+  --cyan-accent: #01caf4;
+
+  --personal-tag-color: red;
+  --course-tag-color: limegreen;
+  
+}
 html,body {
     margin:0;
     padding:0;
@@ -272,6 +276,7 @@ html,body {
   
   .feature_item{
     height:95%;
+    background-color: var(--dark-background);
   }
   .project-img{
 
@@ -297,11 +302,17 @@ html,body {
       border-radius: 6px;
   }
 
-  .project-img-div:hover .img-overlay{
+  .project-img-div:hover  .img-overlay{
       opacity: 0.9;
+  
   }
+  .project-img-div:hover  .project-tag{
+    opacity: 0;
+
+}
 
   .img-overlay p{
+    z-index: 2;
     color: white;
     font-size: 20px;
     position: absolute;
@@ -320,6 +331,22 @@ html,body {
     bottom: 0;
       margin-top: 20px;
       text-align: center;
+  }
+  .project-tag_container{
+
+  }
+  .project-tag{
+    position: absolute;
+    bottom: calc(25px/2);
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 3px;
+    background: var(--dark-background);
+    color:#fff;
+    
+    transition: ease-in-out 300ms;
   }
   /* end of projects section */
   
