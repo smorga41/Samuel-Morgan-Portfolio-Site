@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta property="og:image" content="https://samuel-morgan.netlify.app/img/preview/site-thumbnail.png" />
+        <meta property="og:image" content="./img/preview/site-thumbnail.png" />
 		<link rel="icon" href="img/icons/html-tag.png" type="image/png">
         <title>Sam Morgan Dev</title>
         <!-- Bootstrap CSS -->
@@ -54,13 +54,13 @@
         
         <!--================Home Banner Area =================-->
         <section class="home_banner_area" id="home">
-			<canvas class="gradient-canvas" data-transition-in>			</canvas>
+			<canvas class="gradient-canvas" data-transition-in></canvas>	
            	<div class="container box_1620" id="home-box">
            		<div class="banner_inner d-flex align-items-center" id="home-content">
 					<div class="banner_content">
 						<div class="media">
 							<div class="d-flex">
-								<a href="https://www.linkedin.com/in/samuel-morgan-dev/" target="_blank"> <img class="rounded-corners" src="img/personal.jpg" alt=""></a>
+								<a href="https://www.linkedin.com/in/samuel-morgan-dev/" target="_blank"> <img class="rounded-corners" id="profile-img" src="img/personal.jpg" alt=""></a>
 							</div>
 							<div class="media-body">
 								<div class="personal_text">
@@ -94,7 +94,7 @@
         			<div class="col-lg-6">
 						<div class="welcome_text">
         					<h4>About Myself</h4>
-        					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt justo felis, eget cursus odio consequat eu. Cras vitae dignissim orci. Maecenas ut enim elit. Sed vel convallis mauris. Praesent nec mi auctor, pharetra orci blandit, gravida lorem. Donec blandit lacus ex, in molestie lorem rhoncus id. Aliquam congue, purus ac hendrerit consequat, ante risus commodo nibh, id pretium tellus elit eget est. Praesent id condimentum quam. Morbi nec enim id ante facilisis scelerisque. Donec feugiat lacinia libero eget gravida. </p>
+        					<p>My name is Sam Morgan and I'm a full-time Computer Science student at the University of Manchester. I love to solve problems. Whether its finding the most effiecient way to write a function or best sequence of moves up a climbing wall im up for the challenge. My passion and achievement in the subject over the years has earnt me an academic scholarship alongside a variety of awards. Check out below to see what I’ve been up to.</p>
         					<h3>What I'm Currently...</h3>
 								<div class="row">
         						<div class="col-md-4">
@@ -258,64 +258,74 @@
         			<p>Take a look at some of the things I've made!</p>
         		</div>
 				<div class="row flex-row">
-		
-
+					<!-- experimental refactor -->
 					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print"><!--col col-lg-4 col-md-6 col-sm-12 brand manipul design print-->
 						<div class="feature_item">
-							<div class="project-img-div">
-								<a href="https://github.com/smorga41/Logistic-Regression-Sentiment-Analysis/blob/master/LogisticRegression_SentimentAnalysis.ipynb" target="_blank">
-								<div class="img-overlay">
-									<p>Check it out on GitHub</p>
+							<div class="feature-content">
+								<div class="project-img-div">
+									<a href="https://github.com/smorga41/Logistic-Regression-Sentiment-Analysis/blob/master/LogisticRegression_SentimentAnalysis.ipynb" target="_blank">
+									<div class="img-overlay">
+										<p>Check it out on GitHub</p>
+									</div>
+									</a>
+									<img class="project-img" src="img/projects/logistic-regression-2.png">
+									<p class="project-tag">Course</p>
+									
 								</div>
-								</a>
-								<img class="project-img" src="img/projects/logistic-regression-2.png">
-								<p class="project-tag">Course</p>
-								
-							</div>
-								
+									
 								<h4>Logistic Regression Sentiment Analysis</h4>
 								<p>In this project my aim is to build a supervised machine learning model able to classify movie reviews into positive or negative. Using logistic regression i created a model with 91% accuracy (based on a test set of 10k random IMDB reviews).</p>
-								<h5 class="tech-used">Python | Jupyter notebook | Machine Learning</h5>
 							</div>
+							<div class="feature-footer">	
+								<h5 class="tech-used">Python | Jupyter | Machine Learning</h5>
+							</div>
+						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print">
 						<div class="feature_item" id="portfolio-site">
-							<div class="project-img-div">
-								<a href="https://github.com/smorga41/Samuel-Morgan-Portfolio-Site" target="_blank">
-								<div class="img-overlay">
-									<p>Check it out on GitHub</p>
+							<div class="feature-content">
+								<div class="project-img-div">
+									<a href="https://github.com/smorga41/Samuel-Morgan-Portfolio-Site" target="_blank">
+									<div class="img-overlay">
+										<p>Check it out on GitHub</p>
+									</div>
+									</a>
+									<img class="project-img" src="img/projects/portfolio-site.png">
+									<p class="project-tag">Personal</p>
+									
 								</div>
-								</a>
-								<img class="project-img" src="img/projects/portfolio-site.png">
-								<p class="project-tag">Personal</p>
-								
-							</div>
 								<h4>This Portfolio Website</h4>
 								
 								<p>This site has been made with the intent of injecting some personality into the typically bland task of creating a CV, as well as creating a place to showcase my skills and achievements</p>
+							</div>
+							<div class="feature-footer">
 								<h5 class="tech-used">HTML | CSS | SASS | Bootstrap | JS</h5>
 							</div>
+						</div>
 					</div>
+
 					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print">
 						<div class="feature_item">
-							<div class="project-img-div">
-								<a href="https://github.com/smorga41/Connect-4-MiniMax-Ai" target="_blank">
-								<div class="img-overlay">
-									<p>Check it out on GitHub</p>
+							<div class="feature-content">
+								<div class="project-img-div">
+									<a href="https://github.com/smorga41/Connect-4-MiniMax-Ai" target="_blank">
+									<div class="img-overlay">
+										<p>Check it out on GitHub</p>
+									</div>
+									</a>
+									<img class="project-img" src="img/projects/connect-4-minimax-ai.png">
+									<p class="project-tag">Personal</p>
+											
 								</div>
-								</a>
-								<img class="project-img" src="img/projects/connect-4-minimax-ai.png">
-								<p class="project-tag">Personal</p>
-										
+									<h4>Connect 4 MiniMax AI</h4>
+									<p>An Ai using the minimax algorithm with alpha-beta pruning to beat humans at connect 4.</p>
 							</div>
-								<h4>Connect 4 MiniMax AI</h4>
-								<p>An Ai using the minimax algorithm with alpha-beta pruning to beat humans at connect 4.</p>
+							<div class="feature-footer">
 								<h5 class="tech-used">Python | Minimax | Alpha-Beta Pruning</h5>
-
 							</div>
+						</div>
 					</div>
-					
 				</div>
         	</div>
         </section>
@@ -329,7 +339,7 @@
 			  <div class="row">
 				<div class="col-sm-12 col-md-7">
 				  <h6>Lets connect</h6>
-				  <p class="text-justify">Congratulations you made it to the end. Whether you have a question or just want to say hi, my details are below.</p>
+				  <p class="text-justify">Congratulations you made it to the end. Whether you think i may be a good fit for your company or just want to say hi, my details are below.</p>
 				<div class="col-md-7 col-xs-12">
 					<ul class="list basic_info footer-contact"> 
 						<li><a href="https://www.linkedin.com/in/samuel-morgan-dev/" target="_blank"><i class="fa fa-linkedin">  linkedin.com/in/samuel-morgan-dev/</i></a></li>

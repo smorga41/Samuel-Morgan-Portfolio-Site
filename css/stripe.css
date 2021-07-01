@@ -54,6 +54,7 @@ html,body {
   }
 
   /*about me css */
+
   .welcome_area{
       padding: 0px 0px 120px;
 
@@ -286,7 +287,7 @@ html,body {
   }
   .project-img-div{
     position: relative;
-
+    width:100%;
   }
   .img-overlay{
       position: absolute;
@@ -348,6 +349,13 @@ html,body {
     
     transition: ease-in-out 300ms;
   }
+  .feature_item{ /* spaces content and footer (places tech used at bottom of card) */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+
+
   /* end of projects section */
   
 /* Footer Section */
