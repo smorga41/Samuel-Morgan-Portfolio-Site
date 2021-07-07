@@ -59,6 +59,22 @@ html,body {
       padding: 0px 0px 120px;
 
   }
+  @media (min-width: 768px) {
+    .wel_item{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 100%;
+      margin-bottom: 30px;
+    } 
+  }
+   
+
+  .currently-btn{
+    width: auto;
+    max-width: 30ch;
+    text-align: center;
+  }
 
   .skill-icon{
       max-width: 50px;
@@ -334,9 +350,7 @@ html,body {
       margin-top: 20px;
       text-align: center;
   }
-  .project-tag_container{
 
-  }
   .project-tag{
     position: absolute;
     bottom: calc(25px/2);
