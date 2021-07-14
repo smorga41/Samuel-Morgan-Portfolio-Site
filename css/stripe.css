@@ -104,18 +104,8 @@ html,body {
     color: var(--cyan-accent);
   }
   
-  .lnr::before{  /* lnr icons */
-    /* color: var(--dark-background); */
-
-    background: linear-gradient(-45deg,#009ffd, #766dff,#09c6f9,#0A2540 );
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    
-    background-clip: text;
-    
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+ 
+  
 
   .currently-btn{
     width: auto;
