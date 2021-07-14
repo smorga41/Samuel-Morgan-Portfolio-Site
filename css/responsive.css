@@ -160,7 +160,7 @@
     }
 	.header_area .navbar-collapse{
 		max-height: 340px;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
 		padding: 0px 15px;
