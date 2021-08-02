@@ -7,6 +7,9 @@
   --course-tag-color: limegreen;
   
 }
+*{
+  scroll-behavior: 2smooth;
+}
 html,body {
     margin:0;
     padding:0;
