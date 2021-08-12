@@ -30,7 +30,7 @@ html,body {
     --gradient-color-4: #009ffd;
     
 
-    /*
+    /* Alternative stripe colors
     --gradient-color-1: #ef008f; 
     --gradient-color-2: #88f3ff; 
     --gradient-color-3: #766dff;  
@@ -90,6 +90,10 @@ html,body {
   .welcome_area{
       padding: 0px 0px 120px;
 
+  }
+
+  .welcome_area h1{
+    
   }
   @media (min-width: 768px) {
     .wel_item{
