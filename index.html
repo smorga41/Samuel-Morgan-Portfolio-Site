@@ -97,7 +97,7 @@
         			<div class="col-lg-6">
 						<div class="welcome_text">
         					<h4>About Myself</h4>
-        					<p>My name is Sam Morgan and I'm a full-time Computer Science student at the University of Manchester. I love to solve problems. Whether its finding the most effiecient way to write a function or best sequence of moves up a climbing wall im up for the challenge. My passion and achievement in the subject over the years has earnt me an academic scholarship alongside a variety of awards. Check out below to see what I’ve been up to.</p>
+        					<p>My name is Sam Morgan and I'm a full-time Computer Science student at the University of Manchester. I love to solve problems. Whether its finding the most efficient way to write a function or best sequence of moves up a climbing wall im up for the challenge. My passion and achievement in the subject over the years has earnt me an academic scholarship alongside a variety of awards. Check out below to see what I’ve been up to.</p>
         					<h3>What I'm Currently...</h3>
 								<div class="row">
         						<div class="col-md-4">
@@ -105,7 +105,8 @@
 										<div class="wel-content">
 											<i class="lnr lnr-construction"></i>
 											<h4>Building</h4>
-											<p>This Website!</p>
+											<p>Its a Wrap!</p><br>
+											<p>- A tinder style web app for helping groups of people decide on a movie to watch.</p>
 										</div>
 										<div class="wel-footer">
 											<button class="btn timeline-btn currently-btn" onclick="document.location='https://github.com/smorga41/Samuel-Morgan-Portfolio-Site'" target="_blank">View Source</button>
@@ -129,10 +130,10 @@
 										<div class="wel-content">
 											<i class="lnr lnr-book"></i>
 											<h4>Reading</h4>
-											<p>*Book name here*</p>
+											<p>ARM Assembly Language: Fundamentals and Techniques, 2nd Edition - Christopher Hinds</p>
 										</div>
 										<div class="wel-footer">
-											<button class="btn timeline-btn currently-btn" onclick="document.location=''" target="_blank">View Book</button>
+											<button class="btn timeline-btn currently-btn" onclick="document.location='https://www.amazon.co.uk/ARM-Assembly-Language-Fundamentals-Techniques/dp/1482229854'" target="_blank">View Book</button>
 										</div>
 									</div>
         						</div>
@@ -146,10 +147,12 @@
 								<div class="grid-container what-i-know">
 									<div class="grid-item"><img src="/img/icons/python-original.svg"></div>
 									<div class="grid-item"><img src="/img/icons/csharp-original.svg"></div>
+									<div class="grid-item"><img src="/img/icons/java-original-wordmark.svg"></div>
 									<div class="grid-item"><img src="/img/icons/html5-original.svg"></div>  
 									<div class="grid-item"><img src="/img/icons/css3-original.svg"></div>
-									<div class="grid-item"><img src="/img/icons/bootstrap-plain-wordmark.svg"></div>
+									<div class="grid-item"><img src="/img/icons/mysql-original-wordmark.svg"></div>
 									<div class="grid-item"><img src="/img/icons/javascript-original.svg"></div>      
+									<div class="grid-item"><img src="/img/icons/php-original.svg"></div>      
 								  </div>
 								
 								  <h3>What I Use</h3>
@@ -158,6 +161,7 @@
 									  <div class="grid-item"><img src="/img/icons/github-original.svg"></div>
 									  <div class="grid-item"><img src="/img/icons/git-logo.png"></div>
 									  <div class="grid-item"><img src="/img/icons/chrome-devtools-logo.png"></div>
+									  <div class="grid-item"><img src="/img/icons/linux-original.svg"></div>
 									</div>	
 							</div>
         				</div>
@@ -177,19 +181,20 @@
 						<h6 class="timeline-tenure gradient-text">2021-2025</h6>
 						<h3 class="timeline-title">University of Manchester</h3>
 						<h4 class="timeline-subtitle">BSc, Computer Science with Industrial Experience</h4>
-						<ul class="timeline-bullet">						
+						<ul class="timeline-bullet">
+							<li class="bullet-element"><b>Societies:</b> Data Science (MUDSS), Uni CS, Manchester and Salford Uni Air Squadron (MASUAS), Climbing (MUMC), Skydiving (MUSC)</li>						
 						</ul>
 					</div>
 				</div>
 				<div class="tl-entry right">
 					<div class="content">
 						<a href="https://www.vistair.com" target="_blank"><img class="timeline-logo" src="/img/sqr-logos/sqr-vistair-logo.jpg"></a>
-						<h6 class="timeline-tenure gradient-text">Aug 2021 - September 2021</h6>
+						<h6 class="timeline-tenure gradient-text">Aug 2021 - Sept 2021</h6>
 						<h3 class="timeline-title">Vistair Systems</h3>
 						<h4 class="timeline-subtitle">Summer Internship</h4>
 						<ul class="timeline-bullet">
-							<li class="bullet-element">Analysed key indicators such as fleet complexity, fleet expansion, and recent M&As to identify target clients and calculate the total addressable market of different regions</li>						
-							<li class="bullet-element">Sat in on the day-to-day operations of an agile software development team, including a new data visualisation project</li>						
+							<li class="bullet-element">Analysed key indicators such as fleet complexity, fleet expansion, and recent M&As to identify target clients and calculate the total addressable market of different regions</li>
+							<li class="bullet-element">Sat in on the day-to-day operations of an agile software development team, including a new data visualisation project</li>
 							<li class="bullet-element">Researched technology trends, including potential applications of machine learning, amongst airlines & regulators to predict airlines futures demands from a safety management system</li>						
 						</ul>
 					</div>
@@ -289,13 +294,62 @@
 						<div class="feature_item">
 							<div class="feature-content">
 								<div class="project-img-div">
+									<a href="https://github.com/smorga41/MUDSS2021/blob/0a6f0d2d88cd9963a634834ca0dfa333c8d3e675/Group2.ipynb" target="_blank">
+									<div class="img-overlay">
+										<p>Check it out on GitHub</p>
+									</div>
+									</a>
+									<img class="project-img" src="img/projects/MUDSS-2021.png">
+									<p class="project-tag gradient-background">Hackathon</p>
+									
+								</div>
+									
+								<h4>House Sale Price Prediction</h4>
+								<p>In this project my aim is to build a machine learning model able to predict the sale price of houses.</p>
+								<p>First we Pre-Processed a large dataset containing 89 columns to make sure all data was numeric, normalised, and Null values were replaced.</p>
+								<p>We then Built a combined model using Extreme Gradient Boosting and Lasso</p>
+								<p>After optimisation our model could predict the sale price of the houses with an RMSError of just 0.1159 based on evaluation using a separate test dataset.</p>
+							</div>
+							<div class="feature-footer">	
+								<h5 class="tech-used">Python | Jupyter | Machine Learning</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print"><!--col col-lg-4 col-md-6 col-sm-12 brand manipul design print-->
+						<div class="feature_item">
+							<div class="feature-content">
+								<div class="project-img-div">
+									<a href="https://github.com/smorga41" target="_blank">
+									<div class="img-overlay">
+										<p>Check it out on GitHub</p>
+									</div>
+									</a>
+									<img class="project-img" src="img/projects/checkers.jpg">
+									<p class="project-tag gradient-background">Hackathon</p>
+									
+								</div>
+									
+								<h4>Checkers Deep Q Learning AI</h4>
+								<p>Challenged by Fuzzy Labs, we created a TensorFlow model and trained it to play checkers through Deep Q Learning in a PyGame environment.</p>
+							</div>
+							<div class="feature-footer">	
+								<h5 class="tech-used">Python | TensorFlow | Reinforcement Learning</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print"><!--col col-lg-4 col-md-6 col-sm-12 brand manipul design print-->
+						<div class="feature_item">
+							<div class="feature-content">
+								<div class="project-img-div">
 									<a href="https://github.com/smorga41/Logistic-Regression-Sentiment-Analysis/blob/master/LogisticRegression_SentimentAnalysis.ipynb" target="_blank">
 									<div class="img-overlay">
 										<p>Check it out on GitHub</p>
 									</div>
 									</a>
 									<img class="project-img" src="img/projects/logistic-regression-2.png">
-									<p class="project-tag gradient-background">Course</p>
+									<p class="project-tag gradient-background">Personal</p>
 									
 								</div>
 									
@@ -373,7 +427,7 @@
 						<li><a href="https://www.linkedin.com/in/samuel-morgan-dev/" target="_blank"><i class="fa fa-linkedin">  linkedin.com/in/samuel-morgan-dev/</i></a></li>
 						<li><a href="https://github.com/smorga41" target="_blank"><i class="fa fa-github"></i>  github.com/smorga41</a></li>
 						<li><a href="mailto:samlhmorgan@gmail.com"><i class="lnr lnr-envelope"></i>  samlhmorgan@gmail.com</a></li>
-						<li><i class="lnr lnr-smartphone"></i>  07956730699</li>
+						<li><i class="lnr lnr-smartphone"></i>  +44 (0) 7956 730699</li>
 					</ul>
 				</div>
 			</div>
