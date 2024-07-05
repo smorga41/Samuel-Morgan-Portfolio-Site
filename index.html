@@ -63,8 +63,9 @@
            		<div class="banner_inner d-flex align-items-center" id="home-content">
 					<div class="banner_content">
 						<div class="media">
-							<div class="d-flex">
-								<a href="https://www.linkedin.com/in/samuel-morgan-dev/" target="_blank"> <img class="rounded-corners" id="profile-img" src="img/personal.jpg" alt=""></a>
+							<div class="d-flex hero-img">
+								<a href="https://www.linkedin.com/in/samuel-morgan-dev/" target="_blank">
+									<img class="rounded-corners" id="profile-img" src="img/hero.jpg" alt=""></a>
 							</div>
 							<div class="media-body">
 								<div class="personal_text">
@@ -73,7 +74,7 @@
 									<h4>Computer Science Student</h4>
 									<p>I'm a developer currently studying Computer Science at the University of Manchester</p>             
 									<ul class="list basic_info">
-										<li><a href="#"><i class="lnr lnr-briefcase"></i>Summer intern at <a href="https://www.vistair.com" id="work-link"> Vistair Systems</a></a></li>
+										<li><a href="#"><i class="lnr lnr-briefcase"></i>Placement Software Engineer <a href="https://www.couchbase.com" id="work-link"> Couchbase</a></a></li>
 										<li><a href="#"><i class="lnr lnr-home"></i> Manchester, UK</a></li>
 										<li><a href="#"><i class="lnr lnr-smartphone"></i> 07956730699</a></li>
 										<li><a href="mailto:samlhmorgan@gmail.com"><i class="lnr lnr-envelope hover-link"></i> samlhmorgan@gmail.com</a></li>
@@ -176,6 +177,26 @@
 		<section class="timeline-section" >
 			<div class="timeline"id="experience">
 				<h4 id="my-journey">My Journey</h4>
+				<div class="tl-entry right">
+					<div class="content">
+						<a href="https://www.couchbase.com/" target="_blank">
+							<img class="timeline-logo" src="img/sqr-logos/sqr-couchbase-logo.jpg"></a>
+						<h6 class="timeline-tenure gradient-text">July 2023 - July 2024</h6>
+						<h3 class="timeline-title">Couchbase</h3>
+						<h4 class="timeline-subtitle">Placement Software Engineer</h4>
+						<ul class="timeline-bullet">
+							<li class="bullet-element">Leveraged an internal support API to develop an ETL Pipeline, from Cluster Logs into fields of the
+								Sizing Calculator. Automating a lengthy collection and entry process of customer cluster data previously
+								completed by Solutions Engineers</li>						
+							<li class="bullet-element">Collaborated with Product Owners behind the Index Service & new Magma Storage engine to design
+								sizing Models. I developed and integrated the models into the Sizing Calculator’s Flask backend. allowing
+								for quick sizing of new/ existing customers.</li>						
+							<li class="bullet-element">Led the update of the Supportal log processing pipeline, working closely with the support team to define
+								critical checks and functionality necessary for identifying issues within the new features of a major Couchbase
+								Server release.</li>						
+						</ul>
+					</div>
+				</div>
 				<div class="tl-entry left">
 					<div class="content">
 						<a href="https://www.manchester.ac.uk/study/undergraduate/courses/2022/00559/bsc-computer-science-with-industrial-experience/" target="_blank"><img class="timeline-logo" src="img/sqr-logos/sqr-uom-logo.png"></a>
@@ -291,6 +312,52 @@
         		</div>
 				<div class="row flex-row">
 					<!-- experimental refactor -->
+					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print">
+						<div class="feature_item">
+							<div class="feature-content">
+								<div class="project-img-div">
+									<a href="https://www.linkedin.com/posts/samuel-morgan-dev_aiforgood-hackathon-activity-6931887485392191488-3SyX?utm_source=share&utm_medium=member_desktop" target="_blank">
+										<div class="img-overlay">
+											<p>Check it out on LinkedIn</p>
+										</div>
+									</a>
+									<img class="project-img" src="img/projects/peak-ai-hackathon.jpg">
+									<p class="project-tag gradient-background">Hackathon - Winner</p>
+								</div>
+								<h4>Combating Food Poverty with <a href="https://fareshare.org.uk/">FareShare</a></h4>
+								<p>In the Peak x Manchester University Data Science Society hackathon, my team and I focused on reducing vegetable waste due to expiry in FareShare Greater Manchester's warehouse. </p>
+								<p>During data exploration, we identified fruits and vegetables lost due to expiry as a major inefficiency in FareShare's system. Our solution predicted future donations and identified charities with capacity to accept more produce in advance. Minimizing the time fruits and vegetables spent idle, which is crucial to prevent spoilage.</p>
+								<p>This project was a great success, ending the year on a high note with a victory and valuable insights from industry experts.</p>
+							</div>
+							<div class="feature-footer">
+								<h5 class="tech-used">Data Prediction | AI | Data Analysis</h5>
+							</div>
+						</div>
+					</div>
+										
+					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print">
+						<div class="feature_item">
+							<div class="feature-content">
+								<div class="project-img-div">
+									<a href="https://www.linkedin.com/posts/samuel-morgan-dev_had-a-great-time-last-weekend-at-greatunihack-activity-6998560068342312960-rIM3?utm_source=share&utm_medium=member_desktop" target="_blank">
+										<div class="img-overlay">
+											<p>Check it out on LinkedIn</p>
+										</div>
+									</a>
+									<img class="project-img" src="img/projects/palantir-foundry-hackathon.jpg">
+									<p class="project-tag gradient-background">Hackathon - Runner Up</p>
+								</div>
+								<h4><a href="https://www.palantir.com">Palantir</a> Energy Crisis Management System</h4>
+								<p>During GreatUniHack 2022, my team and I developed an Energy Crisis Management System using Palantir's Foundry platform, earning second place in the Real Impact challenge.</p>
+								<p>The project aimed to reduce energy blackouts in India's national grid by creating a live visual heatmap of overconsuming states using GeoJSON and a prediction model to proactivley indentify near-future overconsumers. It included an alert system to flag overconsuming states and allowed officials to model potential changes using Foundry's Scenario tools.</p>
+								<p>This was an enriching experience, going from no prior platform knowledge to building impactful applications within 24 hours.</p>
+							</div>
+							<div class="feature-footer">
+								<h5 class="tech-used">GeoJSON | Palantir Foundry | Data Visualization</h5>
+							</div>
+						</div>
+					</div>
+					
 					<div class="col-lg-4 col-md-6 col-sm-12 brand manipul design print"><!--col col-lg-4 col-md-6 col-sm-12 brand manipul design print-->
 						<div class="feature_item">
 							<div class="feature-content">
@@ -301,7 +368,7 @@
 									</div>
 									</a>
 									<img class="project-img" src="img/projects/MUDSS-2021.png">
-									<p class="project-tag gradient-background">Hackathon</p>
+									<p class="project-tag gradient-background">Hackathon - Runner Up</p>
 									
 								</div>
 									
@@ -440,7 +507,7 @@
 					<li><a href="#about-me">About Me</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#projects">Projects</a></li>
-					<li><a href="Samuel_Morgan_CV_Dec2021.pdf" target="blank">CV</a></li>
+					<li><a href="cv.pdf" target="blank">CV</a></li>
 				  </ul>
 				</div>
 			  </div>
